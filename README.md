@@ -15,7 +15,7 @@ Whether you're a security researcher, developer, or sysadmin, 404hunter helps yo
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/0xhex0rc1st/404hunter-subdomain-status-tool
+git clone https://github.com/0xhex0rc1st/404hunter-subdomain-status-tool.git
 ````
 
 Compile the project using your preferred build system (e.g., `g++`, `CMake`).
